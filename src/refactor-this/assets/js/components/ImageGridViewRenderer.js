@@ -16,7 +16,7 @@ ImageGridViewRenderer.prototype.render = function () {
   var page = 1
 
   if (!url.searchParams.get("category")) {
-    window.location.href = '?category=nature'
+    window.location.href = '?category='+category
   }
 
   if (window.location.search.includes('category')) {
