@@ -32,6 +32,12 @@
   display: none;
 }
 
+#paginate-container > ul > li > a {
+  width: 85.66px;
+  text-align: center;
+  color: rgba(0,0,0,.9);
+}
+
 #all-images {
   margin: 50px 0;
 }
